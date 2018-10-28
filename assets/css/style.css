@@ -1313,14 +1313,17 @@ a.team-link i {
 
 /* -- testimonial -- */
 
-#testimonial {
-	background: rgba(0, 0, 0, 0) url("../images/testimonial/testimonial-bg.jpg") repeat scroll 0 0 / cover;
+#testimonials {
+	background-image: 
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/testimonial/testimonial-bg.jpg");
+	/* background: rgba(0, 0, 0, 0) url("../images/testimonial/testimonial-bg.jpg") repeat scroll 0 0 / cover; */
 	position: relative;
 	color: #ffffff;
 	background-attachment: fixed;
 }
 
-.testimonial:before {
+.testimonials:before {
 	background-color: #000000;
 	z-index: 0;
 	content: "";
@@ -1332,11 +1335,11 @@ a.team-link i {
 	opacity: 0.7;
 }
 
-#testimonial .section-title h2 {
+#testimonials .section-title h2 {
 	color: #fff;
 }
 
-#testimonial .section-title p {
+#testimonials .section-title p {
 	color: #fff;
 }
 
@@ -1388,7 +1391,7 @@ a.team-link i {
 }
 
 .testimonial-contact p {
-	color: #bbbbbb;
+	color: #ffffff;
 }
 
 .testimonial-contact h5 {
