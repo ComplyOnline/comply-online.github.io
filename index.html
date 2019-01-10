@@ -77,7 +77,12 @@
           <!-- <li><a class="smoth-scroll" href="#testimonials">TESTIMONIALS</a></li> -->
           <!-- <li><a class="smoth-scroll" href="#pricing">PRICING</a></li>
           <li><a class="smoth-scroll" href="#blog">BLOG</a></li> -->
-          <li><a class="smoth-scroll" href="#contacts">CONTACTS</a></li>
+          <li><a class="smoth-scroll" href="#contacts">CONTACT</a></li>
+          <li>
+            <span class="button-group">
+              <a class="btn btn-normal" id="btnSignIn" href="#">SIGN IN</a>
+            </span>
+          </li>
         </ul>
       </div>
     </div>
@@ -89,13 +94,12 @@
       <div id="particles-js"></div>
       <div class="slider-title">
         <div class="table-cell">
-          <p>Creative Team</p>
-          <h2 class="slider-title-animation">WE ARE <span>COMPLY</span> ONLINE</h2>
-          <p class="slider-animation-up">Multiple Products - One Goal - Innovate & Work More Intelligently
+          <h2 class="slider-title-animation"><span>COMPLY</span> ONLINE</h2>
+          <p class="slider-animation-up">Multiple Products, One Goal: Innovate & Work More Intelligently
           </p>
           <div class="button-group slider-animation-up">
             <a class="btn btn-normal-border" href="#">READ MORE</a>
-            <a class="btn btn-normal" href="#">PURCHASE</a>
+            <a class="btn btn-normal-border" href="#">PURCHASE</a>
           </div>
         </div>
       </div>
@@ -145,7 +149,7 @@
           <div class="special-item owl-carousel">
             <div class="special-single-content text-center">
               <i class="fas fa-poll" aria-hidden="true"></i>
-              <h3>Comply Online</h3>
+              <h3>Compliance</h3>
               <p>Combine multiple regulations/standards. Save time and money. Be compliant faster than ever! The best compliance product on the market. </p>
               <a class="btn-service" href="#"> Read More</a>
             </div>
@@ -854,6 +858,12 @@
   <script src="assets/switcher/switcher.js"></script>
   <!-- Main Custom Js -->
   <script src="assets/js/custom.js"></script>
+  <!-- Custom Code -->
+  <script>
+    $("#btnSignIn").on("click", () => {
+      $(location).attr("href", "https://comply-online.com");
+    });
+  </script>
 </body>
 
 </html>
